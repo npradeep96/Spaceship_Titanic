@@ -3,8 +3,8 @@ Script to process and impute the datasets
 """
 import pandas as pd
 import argparse
-import feature_processing as fp
-import data_imputation as di
+import utils.feature_processing as fp
+import utils.data_imputation as di
 
 if __name__ == "__main__":
     """This script assembles and runs data processing and imputation
