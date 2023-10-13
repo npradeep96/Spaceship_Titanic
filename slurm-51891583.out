@@ -1,0 +1,59 @@
+/home/npradeep96/Projects/Learning_ML/Spaceship_Titanic
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Impact of learning rate ...
+Model with rank: 1
+Mean validation score: 0.799 (std: 0.016)
+Parameters: {'learning_rate': 0.1}
+
+Model with rank: 2
+Mean validation score: 0.798 (std: 0.015)
+Parameters: {'learning_rate': 0.03}
+
+Model with rank: 3
+Mean validation score: 0.792 (std: 0.015)
+Parameters: {'learning_rate': 0.3}
+
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Impact of max tree depth ...
+Model with rank: 1
+Mean validation score: 0.799 (std: 0.011)
+Parameters: {'max_depth': 2}
+
+Model with rank: 2
+Mean validation score: 0.798 (std: 0.010)
+Parameters: {'max_depth': 4}
+
+Model with rank: 3
+Mean validation score: 0.792 (std: 0.015)
+Parameters: {'max_depth': 6}
+
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Impact of number of estimators used ...
+Model with rank: 1
+Mean validation score: 0.792 (std: 0.015)
+Parameters: {'n_estimators': 100}
+
+Model with rank: 2
+Mean validation score: 0.790 (std: 0.015)
+Parameters: {'n_estimators': 150}
+
+Model with rank: 3
+Mean validation score: 0.788 (std: 0.015)
+Parameters: {'n_estimators': 200}
+
+Fitting 5 folds for each of 108 candidates, totalling 540 fits
+Result of Grid Search ...
+Model with rank: 1
+Mean validation score: 0.802 (std: 0.010)
+Parameters: {'alpha': 0.1, 'colsample_bytree': 0.7, 'gamma': 10.0, 'learning_rate': 0.3, 'max_depth': 4, 'n_estimators': 200, 'objective': 'binary:hinge', 'subsample': 0.5}
+
+Model with rank: 2
+Mean validation score: 0.802 (std: 0.013)
+Parameters: {'alpha': 0.01, 'colsample_bytree': 0.7, 'gamma': 10.0, 'learning_rate': 0.3, 'max_depth': 4, 'n_estimators': 200, 'objective': 'binary:hinge', 'subsample': 0.7}
+
+Model with rank: 3
+Mean validation score: 0.802 (std: 0.011)
+Parameters: {'alpha': 0.01, 'colsample_bytree': 0.7, 'gamma': 10.0, 'learning_rate': 0.3, 'max_depth': 4, 'n_estimators': 200, 'objective': 'binary:hinge', 'subsample': 0.5}
+
+Predictions on validation dataset ....
+[1 0 1 ... 1 1 1]
